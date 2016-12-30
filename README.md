@@ -8,6 +8,10 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 
 wget https://raw.githubusercontent.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
 mv bullet-train.zsh-theme .oh-my-zsh/themes
+
+wget https://raw.githubusercontent.com/sabirribas/config/master/tmux.conf -O .tmux.conf
+wget https://raw.githubusercontent.com/sabirribas/config/master/vimrc -O .vimrc
+wget https://raw.githubusercontent.com/sabirribas/config/master/zshrc -O .zshrc
 ```
 
 ```bash
