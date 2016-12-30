@@ -14,5 +14,9 @@ mv bullet-train.zsh-theme .oh-my-zsh/themes
 jupyter contrib nbextension install --user
 jupyter nbextension enable toc2/main
 jupyter nbextension enable codefolding/main
+jupyter nbextension enable execute_time/ExecuteTime
 jupyter nbextension enable collapsible_headings/main
+jupyter nbextension enable contrib_nbextensions_help_item/main
+jupyter nbextension enable nbextensions_configurator/tree_tab/main
+jupyter nbextension enable nbextensions_configurator/config_menu/main
 ```
