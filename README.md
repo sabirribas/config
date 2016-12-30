@@ -9,3 +9,10 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 wget https://raw.githubusercontent.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
 mv bullet-train.zsh-theme .oh-my-zsh/themes
 ```
+
+```bash
+jupyter contrib nbextension install --user
+jupyter nbextension enable toc2/main
+jupyter nbextension enable codefolding/main
+jupyter nbextension enable collapsible_headings/main
+```
