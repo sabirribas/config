@@ -15,6 +15,8 @@ wget https://raw.githubusercontent.com/sabirribas/config/master/zshrc -O .zshrc
 ```
 
 ```bash
+conda install -c conda-forge jupyter_contrib_nbextensions
+
 jupyter contrib nbextension install --user
 jupyter nbextension enable toc2/main
 jupyter nbextension enable codefolding/main
